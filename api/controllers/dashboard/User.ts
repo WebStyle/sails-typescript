@@ -28,6 +28,7 @@ export module Controllers {
          * @param res       Response.
          */
         public index(req, res){
+            console.log('aa');
             this._handleRequest(req, res, (req, res, options) => {
                 options.title = 'Index';
 
